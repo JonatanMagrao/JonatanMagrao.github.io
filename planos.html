@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- MEU ESTILO -->
+    <link rel="stylesheet" href="./css/card_plano.css">
+    <link rel="stylesheet" href="./css/meu_estilo.css">
+    <title>Planos</title>
+</head>
+<body class="container">
+    <header>
+        <nav class="menu-top">
+            <div class="logo px-3">
+                <a href="./index.html">Health Track</a>
+            </div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="login.html"><img class="img-icon" src="./assets/icons_set/login_icon.png" alt="Login icon"></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="categorias.html">Categorias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="planos.html">Planos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- corpo da página -->
+    <main>
+        <!-- BREAD CRUMP -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb px-3 pt-2">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Planos</li>
+            </ol>
+        </nav>
+        <!-- FIM DO BREAD CRUMP -->
+
+        <h1 class="cta-title my-5 mx-50 text-light">Escolha aqui<br>seu plano!</h1>
+
+        <!-- CARDS DE PLANO DE PREÇOS -->
+        <nav class="cards-navigation mx-50">
+            
+            <!-- plano nível bronze -->
+            <div class="card-pricing">
+                <div class="card-pricing-background card-pricing-bronze-color">
+                    <img src="./assets/icons_set/bronze_icon.png" alt="" class="card-pricing-img">
+                </div>
+                <h6 class="card-text card-pricing-level">Plano Bronze</h6>
+                <h5 class="card-text card-pricing-price">R$49,00/mês</h5>
+                <ul class="container container-size">
+                    <li>
+                        Cursos Exclusivos
+                        <img class="icon" src="./assets/icons_set/check_icon.png" alt="">
+                    </li>
+                    <li>
+                        Consulta com Coach alimentar
+                        <img class="icon" src="./assets/icons_set/check_icon.png" alt="">
+                    </li>
+                    <li>
+                        Gym Pass
+                        <img class="icon" src="./assets/icons_set/uncheck_icon.png" alt="">
+                    </li>
+                    <li>
+                        Suprimentos básicos mensais
+                        <img class="icon" src="./assets/icons_set/uncheck_icon.png" alt="">
+                    </li>
+                </ul>
+                <a href="./paginas/paginas_usuario/cadastro_usuario.html" class="btn btn-primary btn-width mt-2">Comece Agora</a>
+            </div>
+
+            <!-- plano nível prata -->
+            <div class="card-pricing">
+                <div class="card-pricing-background card-pricing-prata-color">
+                    <img src="./assets/icons_set/prata_icon.png" alt="" class="card-pricing-img">
+                </div>
+                <h6 class="card-text card-pricing-level">Plano Prata</h6>
+                <h5 class="card-text card-pricing-price">R$69,00/mês</h5>
+                <ul class="container container-size">
+                    <li>
+                        Cursos Exclusivos
+                        <img class="icon" src="./assets/icons_set/check_icon.png" alt="">
+                    </li>
+                    <li>
+                        Consulta com Coach alimentar
+                        <img class="icon" src="./assets/icons_set/check_icon.png" alt="">
+                    </li>
+                    <li>
+                        Gym Pass
+                        <img class="icon" src="./assets/icons_set/check_icon.png" alt="">
+                    </li>
+                    <li>
+                        Suprimentos básicos mensais
+                        <img class="icon" src="./assets/icons_set/uncheck_icon.png" alt="">
+                    </li>
+                </ul>
+                <a href="./paginas/paginas_usuario/cadastro_usuario.html" class="btn btn-primary btn-width mt-2">Comece Agora</a>
+            </div>
+
+            <!-- plano nível ouro -->
+            <div class="card-pricing">
+                <div class="card-pricing-background card-pricing-ouro-color">
+                    <img src="./assets/icons_set/ouro_icon.png" alt="" class="card-pricing-img">
+                </div>
+                <h6 class="card-text card-pricing-level">Plano Ouro</h6>
+                <h5 class="card-text card-pricing-price">R$99,00/mês</h5>
+                <ul class="container container-size">
+                    <li>
+                        Cursos Exclusivos
+                        <img class="icon" src="./assets/icons_set/check_icon.png" alt="">
+                    </li>
+                    <li>
+                        Consulta com Coach alimentar
+                        <img class="icon" src="./assets/icons_set/check_icon.png" alt="">
+                    </li>
+                    <li>
+                        Gym Pass
+                        <img class="icon" src="./assets/icons_set/check_icon.png" alt="">
+                    </li>
+                    <li>
+                        Suprimentos básicos mensais
+                        <img class="icon" src="./assets/icons_set/check_icon.png" alt="">
+                    </li>
+                </ul>
+                <a href="./paginas/paginas_usuario/cadastro_usuario.html" class="btn btn-primary btn-width mt-2">Comece Agora</a>
+            </div>
+        </nav>
+        <!-- FIM DOS CARDS DE PLANO DE PREÇOS -->
+
+        <div class="planos-info py-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque earum officiis modi repudiandae, repellat perspiciatis nulla quos quaerat repellendus dolores assumenda totam vero quo dignissimos iste maiores reiciendis quidem temporibus numquam fuga perferendis non libero. Autem quo officiis nam officia at expedita obcaecati quasi, rem, fuga minima provident labore quos.</p>
+        </div>
+    </main>
+    <footer class="text-center">
+        <!-- Grid container -->
+        <div>
+          <!-- Section: Social media -->
+          <section class="social-media-section">
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.instagram.com/jonatan_magrao/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              target="_blank"
+              >
+              <img class="img-icon" src="./assets/icons_set/instagram_icon.png" alt="Instagram icon">
+            </a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.linkedin.com/in/jonatanmagrao/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              target="_blank"
+              >
+              <img class="img-icon" src="./assets/icons_set/linkedin_icon.png" alt="Linkedin icon">
+            </a>
+            <!-- Github -->
+            <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://github.com/JonatanMagrao"
+            role="button"
+            data-mdb-ripple-color="dark"
+            target="_blank"
+            >
+            <img class="img-icon" src="./assets/icons_set/github_icon.png" alt="Github icon">
+            </a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-light p-3 copyright-sign">
+            © 2022 Copyright:
+            <a class="text-light" href="https://jonatanmagrao.com.br/" target="_blank">jonatanmagrao.com.br</a>
+          </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+</html>
